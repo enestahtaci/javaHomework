@@ -17,8 +17,9 @@ public class stringsDemo {
 		System.out.println(mesaj.indexOf("av"));
 		System.out.println(mesaj.lastIndexOf("a"));*/
 		
-		System.out.println(mesaj.replace(' ', '-'));
+		String yeniMesaj = mesaj.replace(' ', '-');
 		System.out.println(yeniMesaj);
+		System.out.println(mesaj.substring(0)));
 
 	}
 }
