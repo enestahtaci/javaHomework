@@ -19,7 +19,10 @@ public class stringsDemo {
 		
 		String yeniMesaj = mesaj.replace(' ', '-');
 		System.out.println(yeniMesaj);
-		System.out.println(mesaj.substring(0)));
+		System.out.println(mesaj.substring(2,4));
 
+		System.out.println(mesaj.toLowerCase());
+		System.out.println(mesaj.toUpperCase());
+		System.out.println(mesaj.trim());
 	}
 }
